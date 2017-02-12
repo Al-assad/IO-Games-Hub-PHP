@@ -3,8 +3,6 @@ create table games_item (
   game_id INT NOT NULL AUTO_INCREMENT,
   game_name VARCHAR(25) NOT NULL ,    #游戏名称
   game_link VARCHAR(40) NOT NULL,     #游戏链接
-  img_path VARCHAR(40) NOT NULL ,     #游戏图片链接
-  wallpaper_path VARCHAR(40),         #轮播条游戏图片链接
   game_description TEXT,               #游戏简介
   collected_count INT DEFAULT 0,      #游戏被收藏数
   liked_count INT DEFAULT 0,          #游戏被点赞数
@@ -53,7 +51,7 @@ create table admin(
 
 #评论表
 CREATE TABLE comment(
-  comment_id INT NOT NULL AUTO_INCREMENT,
+  comment_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
   game_id INT NOT NULL,
   user_id INT NOT NULL,
   content TEXT,

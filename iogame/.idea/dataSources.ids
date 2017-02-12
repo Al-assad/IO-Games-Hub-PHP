@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - iogames@localhost" uuid="470ec738-e0e3-4d93-a821-10fef8f968f0">
+    <database-info product="MySQL" version="5.5.47" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.2">
+      <schema id="1" name="iogames"/>
+      <table id="2" parent="1" name="games_collect"/>
+      <table id="3" parent="1" name="games_item"/>
+      <table id="4" parent="1" name="games_like"/>
+      <table id="5" parent="1" name="users"/>
+      <table id="6" parent="1" name="admin"/>
+      <table id="7" parent="1" name="comment"/>
+      <column id="8" parent="2" name="game_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="9" parent="2" name="user_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="10" parent="2" name="PRIMARY">
+        <columns>game_id
+user_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="11" parent="3" name="game_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="12" parent="3" name="game_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="13" parent="3" name="game_link">
+        <mandatory>1</mandatory>
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="14" parent="3" name="game_description">
+        <data-type>text</data-type>
+      </column>
+      <column id="15" parent="3" name="collected_count">
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="16" parent="3" name="liked_count">
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="17" parent="3" name="create_date">
+        <data-type>date</data-type>
+      </column>
+      <key id="18" parent="3" name="PRIMARY">
+        <columns>game_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="19" parent="4" name="game_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="20" parent="4" name="user_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="21" parent="4" name="PRIMARY">
+        <columns>game_id
+user_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="22" parent="5" name="user_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="23" parent="5" name="user_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="24" parent="5" name="user_password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="25" parent="5" name="create_date">
+        <data-type>date</data-type>
+      </column>
+      <key id="26" parent="5" name="PRIMARY">
+        <columns>user_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="27" parent="6" name="admin_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="28" parent="6" name="user_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="29" parent="6" name="user_password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="30" parent="6" name="create_date">
+        <data-type>date</data-type>
+      </column>
+      <key id="31" parent="6" name="PRIMARY">
+        <columns>admin_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="32" parent="7" name="comment_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="33" parent="7" name="game_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="34" parent="7" name="user_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="35" parent="7" name="content">
+        <data-type>text</data-type>
+      </column>
+      <column id="36" parent="7" name="create_time">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <key id="37" parent="7" name="PRIMARY">
+        <columns>comment_id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
