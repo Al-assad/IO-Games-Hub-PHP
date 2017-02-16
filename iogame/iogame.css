@@ -1,0 +1,129 @@
+
+.icon:hover{
+    opacity:1;
+    filter(alpha=100)
+}
+.icon{
+    opacity:0.4;
+    filter(alpha=80)
+}
+.bar-a{
+    color: #535453;
+}
+
+.center{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:8%;
+    margin-bottom:2%;
+
+}
+
+
+
+/*gridding视图的网格单元*/
+.img-title{
+    color: #e5e5e5;
+    font-size:1.5em;
+    font-family:Agency FB,Consolas,Century Gothic,SansSerif;
+    font-weight:bold;
+    text-align: center;
+}
+.thumbnail-gridding{
+    background-color: #292929;
+}
+.thumbnail-gridding:hover{
+    transition:transform 0.5s;
+    transform:scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);	/* IE 9 */
+    -webkit-transform: scale(1.1,1.1);	/* Safari 和 Chrome */
+    -o-transform: scale(1.1,1.1);	/* Opera */
+    -moz-transform: scale(1.1,1.1);	/* Firefox */
+}
+
+/*浮动按钮*/
+.flut{
+    z-index:2;
+    position:fixed;
+    right:4%;
+    bottom:25%;
+}
+
+/*welcome页面*/
+.center-welcome{
+    width:70%;
+    margin-top:12%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.welcome-title{
+    color: #231f24;
+    font-size:6.5em;
+    font-family:Agency FB,Consolas,Century Gothic,SansSerif;
+    font-weight:bold;
+    text-align: center;
+    opacity:0.9;
+}
+.welcome-inner{
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+}
+.welcome-btn{
+    width:200px;
+    opacity: 0.7;
+    margin:0 20px 0 20px;
+    font-size:1.3em;
+    font-family:Agency FB,Century Gothic,SansSerif;
+}
+.welcome-bottom{
+    position:absolute;
+    right:6%;
+    bottom:6%;
+    font-family:Century Gothic,SansSerif;
+}
+/*home 页面*/
+.home-title{
+    font-family:Agency FB,Century Gothic,SansSerif;
+    font-size:3em;
+    margin-bottom:50px;
+
+}
+.center-carousel{
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.home-top{
+    padding:30px;
+    margin-top:-35px;
+    margin-bottom:20px;
+    background-color: #0e0f0e;
+    opacity:0.8;
+}
+.home-center{
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:8%;
+}
+.home-btn{
+    width:100px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+
+.bar-bottom{
+    width:300px;
+    margin:80px auto 30px auto;
+}
+
+.home-bottom{
+    margin:0 5% 5% 0;
+    text-align:right;
+    font-family:Century Gothic,SansSerif;
+}
