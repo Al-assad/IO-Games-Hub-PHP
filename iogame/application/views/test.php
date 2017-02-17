@@ -11,6 +11,9 @@
 </head>
 <body>
 <h1>hello world!</h1>
+<h1><?php $a = 12;
+    echo " ate you '$a' ?"?></h1>
+
 </body>
 </html>
 

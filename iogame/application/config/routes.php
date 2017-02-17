@@ -51,6 +51,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 
-//$route['default_controller'] = 'test';
+//$route['default_controller'] =
+$route['gamePage/(:any)'] = 'gamePage/index/$1';
+$route['userPage/(:any)'] = 'userPage/index/$1';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

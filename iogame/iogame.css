@@ -26,7 +26,7 @@
 .img-title{
     color: #e5e5e5;
     font-size:1.5em;
-    font-family:Agency FB,Consolas,Century Gothic,SansSerif;
+    font-family:Agency FB,Consolas,Century Gothic,Microsoft YaHei UI,Monospace;
     font-weight:bold;
     text-align: center;
 }
@@ -61,7 +61,7 @@
 .welcome-title{
     color: #231f24;
     font-size:6.5em;
-    font-family:Agency FB,Consolas,Century Gothic,SansSerif;
+    font-family:Agency FB,Consolas,Century Gothic,Microsoft YaHei UI,Monospace;
     font-weight:bold;
     text-align: center;
     opacity:0.9;
@@ -77,17 +77,17 @@
     opacity: 0.7;
     margin:0 20px 0 20px;
     font-size:1.3em;
-    font-family:Agency FB,Century Gothic,SansSerif;
+    font-family:Agency FB,Century Gothic,Microsoft YaHei UI,Monospace;
 }
 .welcome-bottom{
     position:absolute;
     right:6%;
     bottom:6%;
-    font-family:Century Gothic,SansSerif;
+    font-family:Century Gothic,Microsoft YaHei UI,Monospace;
 }
 /*home 页面*/
 .home-title{
-    font-family:Agency FB,Century Gothic,SansSerif;
+    font-family:Agency FB,Century Gothic,Microsoft YaHei UI,Monospace;
     font-size:3em;
     margin-bottom:50px;
 
@@ -100,7 +100,7 @@
 .home-top{
     padding:30px;
     margin-top:-35px;
-    margin-bottom:20px;
+    margin-bottom:10px;
     background-color: #0e0f0e;
     opacity:0.8;
 }
@@ -114,6 +114,7 @@
     width:100px;
     text-align: center;
     opacity: 0.8;
+    filter(alpha=80);
 }
 
 
@@ -125,5 +126,64 @@
 .home-bottom{
     margin:0 5% 5% 0;
     text-align:right;
-    font-family:Century Gothic,SansSerif;
+    font-family:Century Gothic,Microsoft YaHei UI,Monospace;
 }
+
+
+/*game page 页面*/
+.gamePage-center{
+    width:80%;
+    margin:50px auto 50px auto;
+
+}
+.game-value{
+    position:absolute;
+    right:20px;
+
+}
+
+.gamePage-thumbnail{
+    background-color:#292929;
+    width:350px;
+}
+
+.gamePage-btn{
+    text-align: center;
+    opacity: 0.86;
+    filter(alpha=85)
+}
+.comment-unit{
+    width:80%;
+    margin:0 auto 20px 0;
+}
+.comment-input{
+    width:60%;
+    margin:0 auto 70px auto;
+}
+.comment-input textarea{
+    opacity:0.85;
+    filter(alpha=85);
+}
+.comment-btn{
+    float:right;
+    margin-top:20px;
+    width:100px;
+
+}
+
+/*user page*/
+.user-center{
+    width:70%;
+    margin:50px auto 50px auto;
+}
+.user-icon{
+    float:left;
+}
+.user-message{
+    float:left;
+    width:50%;
+    height:200px;
+    margin-left:50px;
+    font-family:Century Gothic,Microsoft YaHei UI,Monospace;
+}
+

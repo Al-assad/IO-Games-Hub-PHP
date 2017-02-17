@@ -22,7 +22,7 @@
         <div class="col-sm-4 col-md-3" >
             <div class="thumbnail thumbnail-gridding">
 <!--                填充游戏主页链接-->
-                <a href=""><img src="<?php echo $base_url.'assets/game-img/'.str_replace('.','-',$items_list[$k]['game_name']).'.png'; ?>"
+                <a href="<?php echo $base_url.'index.php/gamePage/'. $items_list[$k]['game_name'];?>" target="_blank"><img src="<?php echo $base_url.'assets/game-img/'.str_replace('.','-',$items_list[$k]['game_name']).'.png'; ?>"
                                 alt="<?php echo $items_list[$k]['game_name']; ?>"/></a>
                 <div class="caption img-description">
                     <div class="img-title"><?php echo ucfirst($items_list[$k]['game_name']);?></div>
@@ -37,8 +37,7 @@
     <?php for($k=count($items_list)-count($items_list)%4;$k<count($items_list);$k++):?>
         <div class="col-sm-4 col-md-3" >
             <div class="thumbnail thumbnail-gridding">
-                <!--                填充游戏主页链接-->
-                <a href=""><img src="<?php echo $base_url.'assets/game-img/'.str_replace('.','-',$items_list[$k]['game_name']).'.png'; ?>"
+                <a href="<?php echo $base_url.'index.php/gamePage/'. $items_list[$k]['game_name'];?> " target="_blank"><img src="<?php echo $base_url.'assets/game-img/'.str_replace('.','-',$items_list[$k]['game_name']).'.png'; ?>"
                                 alt="<?php echo $items_list[$k]['game_name']; ?>"/></a>
                 <div class="caption img-description">
                     <div class="img-title"><?php echo ucfirst($items_list[$k]['game_name']);?></div>

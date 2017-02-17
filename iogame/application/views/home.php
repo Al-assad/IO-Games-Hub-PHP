@@ -71,7 +71,8 @@
                 <div class="page-header">
                     <h2><?php echo ucfirst($items_list[$i]['game_name']);?></h2><!--     插入游戏数值按钮 -->
                     <p><?php echo $items_list[$i]['game_description']; ?></p>
-                    <a href=""><button type="button" class="btn btn-default home-btn"><span class="glyphicon glyphicon-king"></span> Play</button></a>
+                    <a href="<?php echo $base_url.'index.php/gamePage/'. $items_list[$i]['game_name'];?>" target="_blank">
+                        <button type="button" class="btn btn-default home-btn"><span class="glyphicon glyphicon-king"></span> Play</button></a>
                 </div>
             </div>
         </div>
@@ -80,7 +81,8 @@
                 <div class="page-header">
                     <h2><?php echo ucfirst($items_list[$i+1]['game_name']);?></h2><!--  插入游戏数值按钮 -->
                     <p><?php echo $items_list[$i+1]['game_description']; ?></p>
-                    <a href=""><button type="button" class="btn btn-default home-btn"><span class="glyphicon glyphicon-king"></span> Play</button></a>
+                    <a href="<?php echo $base_url.'index.php/gamePage/'. $items_list[$i+1]['game_name'];?>" target="_blank">
+                        <button type="button" class="btn btn-default home-btn"><span class="glyphicon glyphicon-king"></span> Play</button></a>
                 </div>
             </div>
             <div class="col-md-4">
