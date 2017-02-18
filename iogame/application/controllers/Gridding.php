@@ -22,6 +22,13 @@ class Gridding extends CI_Controller{
         $data['base_url'] = base_url();
         $data['canvas_count'] = 160;
 
+        if(isset($_GET['username'])){
+            $_SESSION['username'] = $_GET['username'];
+        }
+        if(isset($_GET['usericon'])){
+            $_SESSION['user-icon'] = $_GET['usericon'];
+        }
+
         $this->load->view('basic_module/header',$data);
         $this->load->view('basic_module/canvas_nest',$data);
         $this->load->view('basic_module/navigation_bar');

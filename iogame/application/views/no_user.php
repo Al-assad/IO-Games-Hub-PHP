@@ -7,6 +7,7 @@
  * Description:
  */?>
 
-<div style="width:200px;margin:20% auto 0 auto">
+<div style="width:450px;margin:18% auto 0 auto">
     <h1>Sorry,There is no such user.</h1>
+
 </div>

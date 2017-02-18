@@ -7,6 +7,6 @@
  * Description: game page没有参数游戏时的视图
  */?>
 
-<div style="width:200px;margin:20% auto 0 auto">
+<div style="width:450px;margin:17% auto 0 auto">
     <h1>Sorry,There is no such a game.</h1>
 </div>

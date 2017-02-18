@@ -12,7 +12,14 @@ class Test extends CI_Controller{
     }
 
     public function index(){
-        $this->load->view('test');
+        $this->load->helper('url');
+        $data['base_url'] = base_url();
+        $data['title'] = 'test';
+        $data['message'] = 'test';
+
+        $this->load->view('basic_module/header',$data);
+        $this->load->view('popup',$data);
+        $this->load->view('basic_module/footer',$data);
     }
 }
 ?>

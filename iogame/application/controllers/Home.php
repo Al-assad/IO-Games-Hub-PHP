@@ -34,6 +34,15 @@ class Home extends CI_Controller{
 
         $data['carousel_list'] = $list;
         $data['items_list'] = $this->base_model-> get_data_home();   //获取数据库初始数据
+        $data['top_collect_list'] = $this->base_model->get_top_collected(7);
+        $data['top_liked_list'] = $this->base_model->get_top_liked(7);
+
+        if(isset($_GET['username'])){
+            $_SESSION['username'] = $_GET['username'];
+        }
+        if(isset($_GET['usericon'])){
+            $_SESSION['user-icon'] = $_GET['usericon'];
+        }
 
 
         $this->load->view('basic_module/header',$data);

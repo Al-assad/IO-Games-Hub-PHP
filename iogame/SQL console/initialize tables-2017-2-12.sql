@@ -33,7 +33,8 @@ create table games_like(
 create table users(
   user_id INT NOT NULL AUTO_INCREMENT,
   user_name VARCHAR(20) NOT NULL ,
-  user_password VARCHAR(40) NOT NULL ,
+  user_password VARCHAR(41) NOT NULL ,
+  user_icon VARCHAR(20) NOT NULL
   create_date DATE,
   PRIMARY KEY (user_id),
   FOREIGN KEY (user_id) REFERENCES games_collect(user_id),
@@ -44,7 +45,7 @@ create table users(
 create table admin(
   admin_id INT NOT NULL AUTO_INCREMENT,
   user_name VARCHAR(20) NOT NULL ,
-  user_password VARCHAR(40) NOT NULL ,
+  user_password VARCHAR(41) NOT NULL ,
   create_date DATE,
   PRIMARY KEY (admin_id)
 );

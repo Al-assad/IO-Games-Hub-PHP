@@ -104,12 +104,61 @@
     background-color: #0e0f0e;
     opacity:0.8;
 }
+.home-main{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
 .home-center{
-    width:70%;
+    width:95%;
     margin-left:auto;
     margin-right:auto;
     margin-top:8%;
 }
+.home-right-gavs{
+    width:95%;
+    margin:80px 0 40px 0;
+}
+.home-right-items{
+    vertical-align:middle ;
+    text-align:center;
+}
+.home-right-items a{
+    color:#0f0f0f;
+}
+.home-right-title{
+    background-color: rgba(14, 15, 14, 0.89);
+    color: #d2d7d1;
+    font-family:Agency FB,Century Gothic,Microsoft YaHei UI,Monospace ;
+    font-weight:bold;
+    font-size:1.5em;
+}
+.home-right-title:hover{
+    background-color: rgba(14, 15, 14, 0.81);
+    color: #d2d7d1;
+}
+
+.gavs-title{
+    text-align:center;
+    font-family:Century Gothic,Microsoft YaHei UI,Monospace;
+
+}
+.gavs-value{
+    float:right;
+}
+
+.top-img{
+    float:left;
+    width:90px;
+    border-radius:10px 10px 10px 10px;
+    border-style:solid;
+    border-width:1px;
+    border-color: rgba(35, 31, 36, 0.53);
+}
+
+
+
+
 .home-btn{
     width:100px;
     text-align: center;
@@ -129,12 +178,30 @@
     font-family:Century Gothic,Microsoft YaHei UI,Monospace;
 }
 
+.home-label{
+    font-size:1.05em;
+    margin-right:10px;
+    padding:3px 5px 3px 5px;
+    border-style:solid;
+    border-width:1px;
 
+    border-radius:15px 15px 15px 15px;
+    font-family:Century Gothic,Microsoft YaHei UI,Monospace;
+    opacity:0.85;
+    filter(alpha=85);
+}
+.home-labels{
+    margin-right:30px;
+}
 /*game page 页面*/
 .gamePage-center{
     width:80%;
     margin:50px auto 50px auto;
 
+}
+
+.home-p{
+    padding:15px 20px 30px 10px;
 }
 .game-value{
     position:absolute;
@@ -152,13 +219,32 @@
     opacity: 0.86;
     filter(alpha=85)
 }
+
 .comment-unit{
     width:80%;
-    margin:0 auto 20px 0;
+    margin:0 auto 20px auto;
+}
+.comment-unit-left{
+    float:left;
+    margin:0 30px 0 0;
+}
+.comment-unit-right{
+    float:left;
+}
+.comment-unit-right small{
+    margin:60px;
+
+}
+
+.comment-img{
+    width:100px;
+    border-style:solid;
+    border-width:5px;
+    border-radius:50px 50px 50px 50px;
 }
 .comment-input{
     width:60%;
-    margin:0 auto 70px auto;
+    margin:50px auto 70px auto;
 }
 .comment-input textarea{
     opacity:0.85;
@@ -186,4 +272,58 @@
     margin-left:50px;
     font-family:Century Gothic,Microsoft YaHei UI,Monospace;
 }
+
+/*sign in*/
+
+.sign-in-center{
+    width:50%;
+    margin:10% auto 50px auto;
+}
+
+.sign-in-title{
+    font-family:Microsoft YaHei UI,Monospace;
+    width:200px;
+    margin:0 auto 0 auto;
+}
+.sign-in-content{
+    width:400px;
+    margin:40px auto 0 auto;
+}
+.sign-in-btns{
+    width:250px;
+    margin:60px auto 0 auto;
+}
+.sign-in-btns input{
+    width:100px;
+    margin:0 10px 0 10px;
+}
+
+/*通用*/
+.sign-tab{
+    width:80%;
+    margin:50px auto 40px auto;
+}
+.sign-btns{
+    width:250px;
+    margin:20px auto 0 auto;
+}
+.sign-btns input{
+    width:100px;
+    margin:0 10px 0 10px;
+}
+.email-textarea{
+    width:95%;
+    margin:20px auto 20px auto;
+}
+.email-btn{
+    width:200px;
+    margin:20px auto 20px auto;
+}
+.email-btn input{
+    width:200px;
+
+}
+
+
+
 

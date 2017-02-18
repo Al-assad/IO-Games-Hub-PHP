@@ -21,9 +21,14 @@
         <?php for($k=$i;$k<$i+4;$k++):?>
         <div class="col-sm-4 col-md-3" >
             <div class="thumbnail thumbnail-gridding">
-<!--                填充游戏主页链接-->
-                <a href="<?php echo $base_url.'index.php/gamePage/'. $items_list[$k]['game_name'];?>" target="_blank"><img src="<?php echo $base_url.'assets/game-img/'.str_replace('.','-',$items_list[$k]['game_name']).'.png'; ?>"
+
+                <?php if(!isset($_SESSION['username'])){?>
+                <a href="<?php echo $base_url.'index.php/gamePage/index/'. $items_list[$k]['game_name'];?>" target="_blank"><img src="<?php echo $base_url.'assets/game-img/'.str_replace('.','-',$items_list[$k]['game_name']).'.png'; ?>"
                                 alt="<?php echo $items_list[$k]['game_name']; ?>"/></a>
+                 <?php }else{ ?>
+                <a href="<?php echo $base_url.'index.php/gamePage/index/'. $items_list[$k]['game_name'].'?username='.$_SESSION['username'].'&usericon='.$_SESSION['user-icon'];?>" target="_blank"><img src="<?php echo $base_url.'assets/game-img/'.str_replace('.','-',$items_list[$k]['game_name']).'.png'; ?>"
+                                                                                                                           alt="<?php echo $items_list[$k]['game_name']; ?>"/></a>
+                <?php } ?>
                 <div class="caption img-description">
                     <div class="img-title"><?php echo ucfirst($items_list[$k]['game_name']);?></div>
                 </div>
@@ -37,8 +42,13 @@
     <?php for($k=count($items_list)-count($items_list)%4;$k<count($items_list);$k++):?>
         <div class="col-sm-4 col-md-3" >
             <div class="thumbnail thumbnail-gridding">
-                <a href="<?php echo $base_url.'index.php/gamePage/'. $items_list[$k]['game_name'];?> " target="_blank"><img src="<?php echo $base_url.'assets/game-img/'.str_replace('.','-',$items_list[$k]['game_name']).'.png'; ?>"
+                <?php if(!isset($_SESSION['username'])){?>
+                <a href="<?php echo $base_url.'index.php/gamePage/index/'. $items_list[$k]['game_name'];?> " target="_blank"><img src="<?php echo $base_url.'assets/game-img/'.str_replace('.','-',$items_list[$k]['game_name']).'.png'; ?>"
                                 alt="<?php echo $items_list[$k]['game_name']; ?>"/></a>
+                <?php }else{ ?>
+                <a href="<?php echo $base_url.'index.php/gamePage/index/'. $items_list[$k]['game_name'].'?username='.$_SESSION['username'].'&usericon='.$_SESSION['user-icon'];?> " target="_blank"><img src="<?php echo $base_url.'assets/game-img/'.str_replace('.','-',$items_list[$k]['game_name']).'.png'; ?>"
+                                                                                                                            alt="<?php echo $items_list[$k]['game_name']; ?>"/></a>
+                <?php } ?>
                 <div class="caption img-description">
                     <div class="img-title"><?php echo ucfirst($items_list[$k]['game_name']);?></div>
                 </div>
