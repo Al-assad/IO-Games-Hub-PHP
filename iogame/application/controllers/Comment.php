@@ -44,6 +44,12 @@ class Comment extends CI_Controller{
         $data['game_item'] = $this->base_model->get_data_gamePage($datas['game_name']);
         $data['comment_list'] = $this->base_model->get_comment_game($datas['game_name']);
 
+        $data_check['gamename'] = $datas['game_name'];
+        $data_check['username'] = $datas['user_name'];
+
+        $data['collect'] = $this->base_model->check_collect($data_check);
+        $data['like']  = $this->base_model->check_like($data_check);
+
         if($data['game_item']['game_description'] == null){
             $data['game_item']['game_description'] = 'No description temporarily,
             if you hava some idea, you can share it with me according email.';
@@ -66,7 +72,7 @@ class Comment extends CI_Controller{
 
     public function fail(){
 
-            $data['message'] = 'Please Sign in .';
+            $data['message'] = 'Please log in .';
             $data['title'] = 'comment.';
             $data['base_url'] = base_url();
             $this->load->view('basic_module/header',$data);

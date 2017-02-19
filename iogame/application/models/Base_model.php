@@ -65,7 +65,7 @@ class Base_model extends CI_Model{
         return $result;
     }
     //登录界面验证
-    public function validate_sign_in($data){
+    public function validate_log_in($data){
         $username = $data['username'];
         $password = $data['password'];
 
@@ -91,7 +91,7 @@ class Base_model extends CI_Model{
 
 
     //用户注册
-    public function log_in($data){
+    public function sign_in($data){
         $username = $data['username'];
         $password = $data['password'];
         $sql = "SELECT user_name
@@ -110,6 +110,18 @@ class Base_model extends CI_Model{
         $this->db->query($sql);
         $result = $this->db->affected_rows();
         if($result > 0){
+
+            //向新用户随机推荐7个的游戏
+            $sql = "SELECT game_id FROM games_item";
+            $game_list = $this->db->query($sql)->result_array();
+            $random_keys = array_rand($game_list,7);
+
+            $sql = "SELECT user_id from users where user_name = '$username'";
+            $user_id = $this->db->query($sql)->row_array()['user_id'];
+            $sql = "INSERT INTO games_collect VALUE(?,'$user_id')";
+            for($i=0;$i<7;$i++){
+                $this->db->query($sql,array($game_list[$random_keys[$i]]['game_id']));
+            }
             return TRUE;
         }else{
             return FALSE;
@@ -289,7 +301,47 @@ class Base_model extends CI_Model{
         return $result;
     }
 
+    //取消collected记录
+    public function cancel_collected($datas){
+        $game_name = $datas['game_name'];
+        $user_name = $datas['user_name'];
+        $sql = "DELETE FROM games_collect
+                WHERE game_id = (SELECT game_id FROM games_item WHERE game_name = '$game_name')
+                AND  user_id = (SELECT user_id FROM users WHERE user_name = '$user_name')";
+        $query = $this->db->query($sql);
+        $result = $this->db->affected_rows();
+        if(count($result) >0 ){
+            return TRUE;
+        }else{
+            return FALSE;
+        }
+    }
+    //取消liked记录
+    public function cancel_liked($datas){
+        $game_name = $datas['game_name'];
+        $user_name = $datas['user_name'];
+        $sql = "DELETE FROM games_like
+                WHERE game_id = (SELECT game_id FROM games_item WHERE game_name = '$game_name')
+                AND  user_id = (SELECT user_id FROM users WHERE user_name = '$user_name')";
+        $query = $this->db->query($sql);
+        $result = $this->db->affected_rows();
+        if(count($result) >0 ){
+            return TRUE;
+        }else{
+            return FALSE;
+        }
+    }
 
+    //查找数据:
+    public function search($str){
+//TODO：优化查找算法
+        $sql = "SELECT game_name,game_description
+                FROM games_item
+                WHERE game_name LIKE '%$str%'";
+        $query = $this->db->query($sql);
+        $result = $query->result_array();
+        return $result;
+    }
 
 
 }

@@ -21,7 +21,7 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="<?php echo $base_url.'assets/carousel-img/'.$carousel_list[0].'.png';?>" alt="<?php echo $carousel_list[0]; ?>">
+                    <img class="carousel-img" src="<?php echo $base_url.'assets/carousel-img/'.$carousel_list[0].'.png';?>" alt="<?php echo $carousel_list[0]; ?>">
                     <!--        添加指向主页的连接            -->
                     <div class="carousel-caption">
                         <?php if(!isset($_SESSION['username'])){?>
@@ -34,9 +34,9 @@
                 <?php for($i=1;$i<count($carousel_list);$i++): ?>
 
                 <div class="item">
-                    <img src="<?php echo $base_url.'assets/carousel-img/'.$carousel_list[$i].'.png' ?>" alt="<?php echo $carousel_list[$i]; ?>" >
+                    <img class="carousel-img"  src="<?php echo $base_url.'assets/carousel-img/'.$carousel_list[$i].'.png' ?>" alt="<?php echo $carousel_list[$i]; ?>" >
 <!--        添加指向主页的连接            -->
-                    <div class="carousel-caption">
+                    <div  class="carousel-caption">
                         <?php if(!isset($_SESSION['username'])){?>
                         <a href="<?php echo $base_url.'index.php/gamePage/index/'.str_replace('-','.',$carousel_list[$i]);?>"><button type="button" class="btn btn-primary">Learn more</button></a> <br/><br/>
                         <?php }else{ ?>

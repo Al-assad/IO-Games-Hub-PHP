@@ -60,37 +60,76 @@ class GamePage extends CI_Controller{
     public function collect(){
         $datas['game_name'] = $_GET['gamename'];
         $datas['user_name'] = $_GET['username'];
-        $result = $this->base_model->add_collected($datas);
+        $collect = $_GET['collect'];
 
-        if($result == FALSE){
-            $data['title'] = 'collect.';
-            $data['base_url'] = base_url();
-            $data['message'] = 'You have already colllected this game, you can check it in the user page.</p>
+        if($collect == FALSE) {
+            $result = $this->base_model->add_collected($datas);
+            if($result == FALSE){
+                $data['title'] = 'collect.';
+                $data['base_url'] = base_url();
+                $data['message'] = 'You have already colllected this game, you can check it in the user page.</p>
                                <p>If the collected count is not operating properly, you can refresh the page</p>';
-            $this->load->view('basic_module/header',$data);
-            $this->load->view('basic_module/popup-back',$data);
+                $this->load->view('basic_module/header',$data);
+                $this->load->view('basic_module/popup-back',$data);
+            }else{
+                $this->index( $datas['game_name']);
+            }
         }else{
-            $this->index( $datas['game_name']);
+            $result = $this->base_model->cancel_collected($datas);
+
+            if($result == FALSE){
+                $data['title'] = 'cancel_collect.';
+                $data['base_url'] = base_url();
+                $data['message'] = 'Fail to cancel the collection,please try again.';
+                $this->load->view('basic_module/header',$data);
+                $this->load->view('basic_module/popup-back',$data);
+            }else{
+                $this->index( $datas['game_name']);
+            }
         }
+
+
+
 
     }
 
     public function like(){
         $datas['game_name'] = $_GET['gamename'];
         $datas['user_name'] = $_GET['username'];
-        $result = $this->base_model->add_liked($datas);
 
-        if($result == FALSE){
-            $data['title'] = 'like.';
-            $data['base_url'] = base_url();
-            $data['message'] = 'You have already give a like to this game, you can check it in the user page.</p>
+        $like = $_GET['like'];
+
+        if($like == FALSE){
+            $result = $this->base_model->add_liked($datas);
+
+            if($result == FALSE){
+                $data['title'] = 'like.';
+                $data['base_url'] = base_url();
+                $data['message'] = 'You have already give a like to this game, you can check it in the user page.</p>
                                <p>If the collected count is not operating properly, you can refresh the page</p>';
-            $this->load->view('basic_module/header',$data);
-            $this->load->view('basic_module/popup-back',$data);
+                $this->load->view('basic_module/header',$data);
+                $this->load->view('basic_module/popup-back',$data);
+            }else{
+                $this->index( $datas['game_name']);
+            }
         }else{
-            $this->index( $datas['game_name']);
+            $result = $this->base_model->cancel_liked($datas);
+
+            if($result == FALSE){
+                $data['title'] = 'like.';
+                $data['base_url'] = base_url();
+                $data['message'] = 'Fail to cancel the collection,please try again.';
+                $this->load->view('basic_module/header',$data);
+                $this->load->view('basic_module/popup-back',$data);
+            }else{
+                $this->index( $datas['game_name']);
+            }
         }
+
+
+
     }
+
 
 
 

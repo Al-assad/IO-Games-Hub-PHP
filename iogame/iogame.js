@@ -8,6 +8,6 @@ $(function(){
    $('[data-toggle="tooltip"]').tooltip();
 });
 //启动轮播控件
-$('.carousel').carousel({interval:500});
+$('.carousel').carousel({interval:150});
 
 

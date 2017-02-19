@@ -30,7 +30,7 @@ $this->load->helper('form');
 
 
                     <a href="<?php if(isset($_SESSION['username'])){
-                    echo $base_url.'index.php/gamePage/collect/?username='.$_SESSION['username'].'&gamename='.$game_item['game_name'].'&usericon='.$_SESSION['user-icon'];
+                    echo $base_url.'index.php/gamePage/collect/?username='.$_SESSION['username'].'&gamename='.$game_item['game_name'].'&usericon='.$_SESSION['user-icon'].'&collect='.$collect;
                     }else{
                     echo  $base_url.'index.php/comment/fail';
                     }?>">
@@ -40,7 +40,7 @@ $this->load->helper('form');
                             <span class="badge"><?php echo $game_item['collected_count']; ?></span></button></a>
 
                     <a href="<?php if(isset($_SESSION['username'])){
-                    echo $base_url.'index.php/gamePage/like/?username='.$_SESSION['username'].'&gamename='.$game_item['game_name'].'&usericon='.$_SESSION['user-icon'];
+                    echo $base_url.'index.php/gamePage/like/?username='.$_SESSION['username'].'&gamename='.$game_item['game_name'].'&usericon='.$_SESSION['user-icon'].'&like='.$like;
                     }else{
                     echo  $base_url.'index.php/comment/fail';
                     }?>">

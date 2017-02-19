@@ -31,9 +31,11 @@ $this->load->helper('form');
                     <span class="glyphicon glyphicon-th"></span> Gridding</a></li>
             <?php }?>
         </ul>
+
         <ul class="nav navbar-nav navbar-right" >
+
             <?php if(!isset($_SESSION['username'])){
-                echo '<li><a data-toggle="modal" data-target="#signIn"><span class="glyphicon glyphicon-user" ></span> Sign in</a></li>';
+                echo '<li><a data-toggle="modal" data-target="#signIn"><span class="glyphicon glyphicon-user" ></span> Log in</a></li>';
             }else{
                 echo '<li><a href="'.$base_url.'index.php/userPage/index/'.$_SESSION['username'].'">
                 <img src="'.$base_url.'assets/user-icon/icon-'.$_SESSION['user-icon'].'.png'.'"
@@ -41,10 +43,24 @@ $this->load->helper('form');
             }?>
             <li><a data-toggle="modal" data-target="#email"><span class="glyphicon glyphicon-envelope"></span> Email Author</a></li>
         </ul>
+
+        <!--search tools-->
+        <form class="navbar-form navbar-right" action="<?php echo $base_url.'index.php/search/index'?>" method="post">
+            <div class="input-group">
+                <input name="search_str" type="text" class="form-control" placeholder="Search for..." >
+                <?php if(isset($_SESSION['username'])){?>
+                    <input type="hidden" name="username" value="<?php echo $_SESSION['username'];?>">
+                    <input type="hidden" name="usericon" value="<?php echo  $_SESSION['user-icon'];?>">
+                <?php }?>
+                <span class="input-group-btn"><button class="btn btn-default" type="submit"">
+                        <span class="glyphicon glyphicon-search"></span></button></span>
+            </div>
+        </form>
+
     </div>
 </div>
 
-<!--Sign in 按钮模态框-->
+<!--log in 按钮模态框-->
 <div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -52,17 +68,17 @@ $this->load->helper('form');
 
                 <!--Sign in 、Login切换标签页-->
                 <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#sign_tab" aria-controls="sign_tab" role="tab" data-toggle="tab">Sign in</a></li>
-                    <li role="presentation" ><a href="#login_tab" aria-controls="login_tab" role="tab" data-toggle="tab">Log in</a></li>
+                    <li role="presentation" class="active"><a href="#log_tab" aria-controls="sign_tab" role="tab" data-toggle="tab">Log in</a></li>
+                    <li role="presentation" ><a href="#sign_tab" aria-controls="login_tab" role="tab" data-toggle="tab">Sign in</a></li>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </ul>
 
                 <!--控制模型-->
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="sign_tab">
+                    <div role="tabpanel" class="tab-pane active" id="log_tab">
                         <div class="sign-tab">
 
-                            <?php echo form_open('userPage/signIn');?>
+                            <?php echo form_open('userPage/logIn');?>
                             <div class="input-group">
                                 <span class="input-group-addon input-span" id="baisc-addon1"> User name </span>
                                 <input type="text" name="user_name" class="form-control" placeholder="Please enter your user name" aria-describedby="basic-addon1">
@@ -74,17 +90,16 @@ $this->load->helper('form');
                             </div><br/>
                             <div class="sign-btns">
                                 <input type="reset" class="btn btn-default" value="Reset"/>
-                                <input type="submit" class="btn btn-primary" value="Sign in"/>
+                                <input type="submit" class="btn btn-primary" value="Log in"/>
                             </div>
                             </form>
                         </div>
                     </div>
 
-                    <div role="tabpanel" class="tab-pane" id="login_tab">
-                        <div role="tabpanel" class="tab-pane active" id="sign_tab">
+                    <div role="tabpanel" class="tab-pane" id="sign_tab">
                             <div class="sign-tab">
 
-                                <?php echo form_open('userPage/logIn');?>
+                                <?php echo form_open('userPage/signIn');?>
                                 <div class="input-group">
                                     <span class="input-group-addon input-span" id="baisc-addon3"> User name </span>
                                     <input type="text" name="user_name" class="form-control" placeholder="Please enter your user name" aria-describedby="basic-addon3">
@@ -100,7 +115,7 @@ $this->load->helper('form');
                                 </div><br/>
                                 <div class="sign-btns">
                                     <input type="reset" class="btn btn-default" value="Reset"/>
-                                    <input type="submit" class="btn btn-primary" value="Log in"/>
+                                    <input type="submit" class="btn btn-primary" value="Sign in"/>
                                 </div>
                                 </form>
                             </div>

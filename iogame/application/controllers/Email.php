@@ -39,16 +39,15 @@ class Email extends CI_Controller{
 
         $this->email->initialize($config);
         $this->email->from('helloworld_assad@163.com',$_POST['username']);
-        $this->email->to('yulinying_1994@outlook.com');
+        $this->email->to('yulinying_1994@foxmail.com');
         $this->email->subject('IO Game Hub');
         $this->email->message($_POST['content']);
 
         if($this->email->send()){
-            $data['message'] = 'The email was send.';
+            $data['message'] = 'The email was sent.';
         }else{
             $data['message'] = 'Fail to send the email, Please try again.';
         }
-
         $data['title'] = 'email.';
         $data['base_url'] = base_url();
         $this->load->view('basic_module/header',$data);

@@ -38,26 +38,26 @@ class UserPage extends CI_Controller{
 
 
     //用户登录
-    public function signIn(){
+    public function logIn(){
         //表单常规验证
         $this->form_validation->set_rules('user_name','Username','required|htmlspecialchars|trim');
         $this->form_validation->set_rules('password','Password','required|htmlspecialchars|trim');
         if($this->form_validation->run() == FALSE){
-            $data['title'] = 'Sign in error';
+            $data['title'] = 'Log in error';
             $data['base_url'] = base_url();
             $data['canvas_count'] = 200;
             $data['error_message'] = '';
             $this->load->view('basic_module/header',$data);
             $this->load->view('basic_module/navigation_bar');
             $this->load->view('basic_module/canvas_nest',$data);
-            $this->load->view('sign_in',$data);
+            $this->load->view('log_in',$data);
             $this->load->view('basic_module/footer',$data);
         }else{
             //数据库查询
             $user_data['username'] = $_POST['user_name'];
             $user_data['password'] = $_POST['password'];
 
-            $result  = $this->base_model->validate_sign_in($user_data);
+            $result  = $this->base_model->validate_log_in($user_data);
 
             if($result == 'no name' || $result == 'no password'){
                 $data['title'] = 'Sign in error';
@@ -71,7 +71,7 @@ class UserPage extends CI_Controller{
                 $this->load->view('basic_module/header',$data);
                 $this->load->view('basic_module/navigation_bar');
                 $this->load->view('basic_module/canvas_nest',$data);
-                $this->load->view('sign_in',$data);
+                $this->load->view('log_in',$data);
                 $this->load->view('basic_module/footer',$data);
 
             }else{
@@ -107,13 +107,13 @@ class UserPage extends CI_Controller{
     }
 
     //用户注册
-    public function logIn(){
+    public function signIn(){
         //表单常规验证
         $this->form_validation->set_rules('user_name','Username','required|htmlspecialchars|trim');
         $this->form_validation->set_rules('password','Password','required|htmlspecialchars|trim');
         $this->form_validation->set_rules('check','Password','required|htmlspecialchars|trim');
         if($this->form_validation->run() == FALSE || trim($this->input->post('password')) != trim($this->input->post('check'))){
-            $data['title'] = 'Log in error';
+            $data['title'] = 'Sign in error';
             $data['base_url'] = base_url();
             $data['canvas_count'] = 200;
             $data['error_message'] = '';
@@ -123,14 +123,14 @@ class UserPage extends CI_Controller{
             $this->load->view('basic_module/header',$data);
             $this->load->view('basic_module/navigation_bar');
             $this->load->view('basic_module/canvas_nest',$data);
-            $this->load->view('log_in',$data);
+            $this->load->view('sign_in',$data);
             $this->load->view('basic_module/footer',$data);
         }else{
             //数据库查询
             $user_data['username'] = $_POST['user_name'];
             $user_data['password'] = $_POST['password'];
 
-            $result  = $this->base_model->log_in($user_data);
+            $result  = $this->base_model->sign_in($user_data);
 
             if($result == FALSE){
                 $data['title'] = 'Log in error';
@@ -140,7 +140,7 @@ class UserPage extends CI_Controller{
                 $this->load->view('basic_module/header',$data);
                 $this->load->view('basic_module/navigation_bar');
                 $this->load->view('basic_module/canvas_nest',$data);
-                $this->load->view('log_in',$data);
+                $this->load->view('sign_in',$data);
                 $this->load->view('basic_module/footer',$data);
 
             }else{
@@ -150,7 +150,9 @@ class UserPage extends CI_Controller{
                 $this->session->set_userdata($user_data);
 
                 $this->index($user_data['username']);
-                $data['message'] =  'Hello,'. $user_data['username'].'! Welcome to IO Games Hub';
+                $data['message'] =  'Hello,'. $user_data['username'].'! Welcome to IO Games Hub</p>
+                                    <p>The system recommend 7 IO Games randomly to you.</p>
+                                    <p>You can cancel the collection in the game page.</p>';
                 $this->load->view('basic_module/popup',$data);
             }
         }

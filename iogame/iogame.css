@@ -93,16 +93,22 @@
 
 }
 .center-carousel{
-    width:1200px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.carousel-img{
+    width:90%;
     margin-left:auto;
     margin-right:auto;
 }
 .home-top{
-    padding:30px;
-    margin-top:-35px;
+    margin-top:-20px;
+    padding:20px 0 30px 0;
     margin-bottom:10px;
     background-color: #0e0f0e;
-    opacity:0.8;
+    opacity:0.88;
+    filter(alpha=88);
 }
 .home-main{
     width:90%;
@@ -122,6 +128,8 @@
 .home-right-items{
     vertical-align:middle ;
     text-align:center;
+    opacity:0.85;
+    filter(alpha=85);
 }
 .home-right-items a{
     color:#0f0f0f;
@@ -326,4 +334,28 @@
 
 
 
-
+/*search 页面*/
+.search-center {
+    width:60%;
+    margin:60px auto 50px auto;
+}
+.search-title{
+    text-align:center;
+}
+.search-input{
+    width:70%;
+    margin:0 auto 20px auto;
+}
+.search-img{
+    width:90%;
+    border-radius:25px 25px 25px 25px;
+    border-style:solid;
+    border-width:1px;
+    border-color: #949494;
+}
+.search-message{
+    text-align:center;
+    margin-bottom:30px;
+    font-family:Agency FB,Century Gothic,Microsoft YaHei UI,Monospace;
+    font-size:1.4em;
+}

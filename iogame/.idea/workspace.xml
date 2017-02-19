@@ -31,48 +31,6 @@
         <option name="myItemId" value="MySQL - iogames@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="users" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - iogames@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - iogames@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="games_item" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - iogames@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="games_collect" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -84,27 +42,108 @@
       <file leaf-file-name="Base_model.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/Base_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-37.5">
-              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+            <state vertical-scroll-proportion="-3.2479339">
+              <caret line="93" column="24" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="24" />
               <folding>
-                <marker date="1487316534485" expanded="true" signature="409:502" placeholder="SELECT game_..games_item..." />
-                <marker date="1487316534485" expanded="true" signature="409:542" placeholder="SELECT game_..games_item..." />
-                <marker date="1487316534485" expanded="true" signature="409:553" placeholder="SELECT game_..games_item..." />
-                <marker date="1487316534485" expanded="true" signature="752:828" placeholder="SELECT game_..games_item..." />
-                <marker date="1487316534485" expanded="true" signature="1034:1170" placeholder="SELECT game_..games_item..." />
-                <marker date="1487316534485" expanded="true" signature="1034:1172" placeholder="SELECT game_..games_item..." />
-                <marker date="1487316534485" expanded="true" signature="1034:1173" placeholder="SELECT game_..games_item..." />
-                <marker date="1487316534485" expanded="true" signature="1034:1179" placeholder="SELECT game_..games_item..." />
-                <marker date="1487316534485" expanded="true" signature="1034:1180" placeholder="SELECT game_..games_item..." />
-                <marker date="1487316534485" expanded="true" signature="1034:1181" placeholder="SELECT game_..games_item..." />
-                <marker date="1487316534485" expanded="true" signature="1034:1222" placeholder="SELECT game_..games_item..." />
-                <marker date="1487316534485" expanded="true" signature="1386:1456" placeholder="SELECT user_..." />
-                <marker date="1487316534485" expanded="true" signature="1386:1512" placeholder="SELECT user_..users..." />
-                <marker date="1487316534485" expanded="true" signature="1697:2061" placeholder="SELECT games..WHERE..." />
-                <marker date="1487316534485" expanded="true" signature="1780:2060" placeholder="SELECT game_..games_collect..." />
-                <marker date="1487316534485" expanded="true" signature="1899:2047" placeholder="SELECT user_..users..." />
-                <marker date="1487316534485" expanded="true" signature="1899:2059" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="409:502" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="409:542" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="409:553" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="752:828" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="1034:1170" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="1034:1172" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="1034:1173" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="1034:1179" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="1034:1180" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="1034:1181" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="1034:1222" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="1386:1456" placeholder="SELECT user_..." />
+                <marker date="1487518421985" expanded="true" signature="1386:1512" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="1697:2061" placeholder="SELECT games..WHERE..." />
+                <marker date="1487518421985" expanded="true" signature="1780:2060" placeholder="SELECT game_..games_collect..." />
+                <marker date="1487518421985" expanded="true" signature="1899:2047" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="1899:2059" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="2329:2394" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="2329:2395" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="2329:2408" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="2329:2418" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="2599:2730" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="3090:3179" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="3385:3525" placeholder="INSERT INTO users..." />
+                <marker date="1487518421985" expanded="true" signature="3680:3710" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="3852:3907" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="4001:4046" placeholder="INSERT INTO games_collect..." />
+                <marker date="1487518421985" expanded="true" signature="4343:4408" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="4343:4433" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="4762:4836" placeholder="UPDATE users..." />
+                <marker date="1487518421985" expanded="true" signature="4762:4859" placeholder="UPDATE users..." />
+                <marker date="1487518421985" expanded="true" signature="4762:4870" placeholder="UPDATE users..." />
+                <marker date="1487518421985" expanded="true" signature="4762:4882" placeholder="UPDATE users..." />
+                <marker date="1487518421985" expanded="true" signature="5261:5393" placeholder="INSERT INTO comment..." />
+                <marker date="1487518421985" expanded="true" signature="5261:5533" placeholder="INSERT INTO comment..." />
+                <marker date="1487518421985" expanded="true" signature="5808:5899" placeholder="SELECT user_..." />
+                <marker date="1487518421985" expanded="true" signature="5808:6056" placeholder="SELECT users..comment..." />
+                <marker date="1487518421985" expanded="true" signature="5808:6253" placeholder="SELECT users..comment..." />
+                <marker date="1487518421985" expanded="true" signature="5808:6270" placeholder="SELECT users..comment..." />
+                <marker date="1487518421985" expanded="true" signature="6058:6119" placeholder="SELECT ${$ga..." />
+                <marker date="1487518421985" expanded="true" signature="6058:6203" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="6552:6588" placeholder="SELECT game_..game..." />
+                <marker date="1487518421985" expanded="true" signature="6552:6623" placeholder="SELECT game_..games_collect..." />
+                <marker date="1487518421985" expanded="true" signature="6552:6697" placeholder="SELECT game_..games_collect..." />
+                <marker date="1487518421985" expanded="true" signature="6552:6714" placeholder="SELECT game_..games_collect..." />
+                <marker date="1487518421985" expanded="true" signature="6552:6787" placeholder="SELECT game_..games_collect..." />
+                <marker date="1487518421985" expanded="true" signature="6635:6677" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="6635:6696" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="6730:6786" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="6957:7146" placeholder="INSERT INTO games_collect..." />
+                <marker date="1487518421985" expanded="true" signature="7207:7329" placeholder="UPDATE games..." />
+                <marker date="1487518421985" expanded="true" signature="7558:7790" placeholder="SELECT game_..games_like..." />
+                <marker date="1487518421985" expanded="true" signature="7638:7699" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="7733:7789" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="7960:8146" placeholder="INSERT INTO games_like..." />
+                <marker date="1487518421985" expanded="true" signature="8207:8321" placeholder="UPDATE games..." />
+                <marker date="1487518421985" expanded="true" signature="8567:8802" placeholder="SELECT game_..games_collect..." />
+                <marker date="1487518421985" expanded="true" signature="8650:8711" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="8745:8801" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="9142:9374" placeholder="SELECT game_..games_like..." />
+                <marker date="1487518421985" expanded="true" signature="9222:9283" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="9317:9373" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="9652:9706" placeholder="SELECT game_..." />
+                <marker date="1487518421985" expanded="true" signature="9652:9763" placeholder="SELECT TOP g..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="9652:9803" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="9652:9804" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="9983:10131" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="10419:10630" placeholder="DELETE FROM ..." />
+                <marker date="1487518421985" expanded="true" signature="10431:10630" placeholder="SELECT game_..games_like..." />
+                <marker date="1487518421985" expanded="true" signature="10478:10539" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="10573:10629" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="10992:11200" placeholder="DELETE FROM ..." />
+                <marker date="1487518421985" expanded="true" signature="11048:11109" placeholder="SELECT game_..games_item..." />
+                <marker date="1487518421985" expanded="true" signature="11143:11199" placeholder="SELECT user_..users..." />
+                <marker date="1487518421985" expanded="true" signature="11481:11542" placeholder="SELECT game_..games_collect..." />
+                <marker date="1487518421985" expanded="true" signature="11481:11568" placeholder="SELECT game_..games_collect..." />
+                <marker date="1487518421985" expanded="true" signature="11481:11591" placeholder="SELECT game_..games_collect..." />
+                <marker date="1487518421985" expanded="true" signature="11481:11592" placeholder="SELECT game_..games_collect..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign_in.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/sign_in.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.5">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log_in.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/log_in.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.888889">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,66 +151,46 @@
       <file leaf-file-name="UserPage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/UserPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.88889">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#183#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="2.7768595">
+              <caret line="73" column="41" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigation_bar.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="navigation_bar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/basic_module/navigation_bar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4454429">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.388889">
-              <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/user_page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.13889">
-              <caret line="94" column="6" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+            <state vertical-scroll-proportion="-8.826447">
+              <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
               <folding>
-                <element signature="e#6#180#0#PHP" expanded="true" />
-                <marker date="1487319219655" expanded="true" signature="573:1255" placeholder="..." />
+                <marker date="1487518767759" expanded="true" signature="1692:1733" placeholder="..." />
+                <marker date="1487518767759" expanded="true" signature="1930:2168" placeholder="..." />
+                <marker date="1487518767759" expanded="true" signature="2004:2163" placeholder="..." />
+                <marker date="1487518767759" expanded="true" signature="2101:2131" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Comment.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="welcome.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/welcome.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.4710743">
+              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/Comment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.72272146">
+              <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
               <folding>
                 <element signature="e#6#181#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iogame.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iogame.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.638889">
-              <caret line="175" column="12" selection-start-line="175" selection-start-column="12" selection-end-line="175" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -180,13 +199,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/application/models/Base_model.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/application/views/basic_module/navigation_bar.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/root/README.md" />
         <option value="$PROJECT_DIR$/application/views/Test.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Test.php" />
         <option value="$PROJECT_DIR$/iogames_assad_site/index.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/models/Home.php" />
@@ -203,28 +222,38 @@
         <option value="$PROJECT_DIR$/application/views/basic_module/header.php" />
         <option value="$PROJECT_DIR$/application/views/basic_module/canvas-nest.php" />
         <option value="$PROJECT_DIR$/application/views/basic_module/canvas_nest.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Home.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Gridding.php" />
         <option value="$PROJECT_DIR$/application/controllers/Welcome.php" />
-        <option value="$PROJECT_DIR$/application/views/basic_module/footer.php" />
-        <option value="$PROJECT_DIR$/application/views/basic_module/flut_button_up_home.php" />
-        <option value="$PROJECT_DIR$/application/views/basic_module/flut_button_up_gridding.php" />
-        <option value="$PROJECT_DIR$/application/views/welcome.php" />
-        <option value="$PROJECT_DIR$/application/views/test.php" />
         <option value="$PROJECT_DIR$/application/views/no_game.php" />
-        <option value="$PROJECT_DIR$/application/views/home.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/470ec738-e0e3-4d93-a821-10fef8f968f0/console.sql" />
-        <option value="$PROJECT_DIR$/application/views/gridding.php" />
-        <option value="$PROJECT_DIR$/application/controllers/GamePage.php" />
         <option value="$PROJECT_DIR$/application/views/no_user.php" />
-        <option value="$PROJECT_DIR$/application/views/game_page.php" />
+        <option value="$PROJECT_DIR$/application/views/test.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Gridding.php" />
+        <option value="$PROJECT_DIR$/application/views/basic_module/flut_button_up_gridding.php" />
+        <option value="$PROJECT_DIR$/application/views/basic_module/flut_button_up_home.php" />
+        <option value="$PROJECT_DIR$/application/views/popup.php" />
+        <option value="$PROJECT_DIR$/application/views/basic_module/popup.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
-        <option value="$PROJECT_DIR$/iogame.css" />
-        <option value="$PROJECT_DIR$/application/models/Base_model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Comment.php" />
-        <option value="$PROJECT_DIR$/application/controllers/UserPage.php" />
-        <option value="$PROJECT_DIR$/application/views/basic_module/navigation_bar.php" />
+        <option value="$PROJECT_DIR$/application/views/gridding.php" />
+        <option value="$PROJECT_DIR$/application/views/basic_module/popup-back.php" />
         <option value="$PROJECT_DIR$/application/views/user_page.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Home.php" />
+        <option value="$PROJECT_DIR$/application/views/basic_module/footer.php" />
+        <option value="$PROJECT_DIR$/application/controllers/GamePage.php" />
+        <option value="$PROJECT_DIR$/application/views/game_page.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/470ec738-e0e3-4d93-a821-10fef8f968f0/console.sql" />
+        <option value="$PROJECT_DIR$/application/controllers/Search.php" />
+        <option value="$PROJECT_DIR$/application/views/search.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Test.php" />
+        <option value="$PROJECT_DIR$/application/views/home.php" />
+        <option value="$PROJECT_DIR$/iogame.css" />
+        <option value="$PROJECT_DIR$/iogame.js" />
+        <option value="$PROJECT_DIR$/application/controllers/Email.php" />
+        <option value="$PROJECT_DIR$/application/controllers/UserPage.php" />
+        <option value="$PROJECT_DIR$/application/models/Base_model.php" />
+        <option value="$PROJECT_DIR$/application/views/sign_in.php" />
+        <option value="$PROJECT_DIR$/application/views/log_in.php" />
+        <option value="$PROJECT_DIR$/application/views/basic_module/navigation_bar.php" />
+        <option value="$PROJECT_DIR$/application/views/welcome.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Comment.php" />
       </list>
     </option>
   </component>
@@ -274,6 +303,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -416,26 +446,25 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="D:/Program Design/PHP-Study/FormConfirmation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testCI" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\phpStudy\WWW\iogame\root" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\phpStudy\WWW\iogame\application\views" />
       <recent name="D:\phpStudy\WWW\iogame\application\views\basic_module" />
+      <recent name="D:\phpStudy\WWW\iogame\application\views" />
       <recent name="D:\phpStudy\WWW\iogame" />
       <recent name="D:\phpStudy\WWW\iogame\root" />
       <recent name="D:\phpStudy\WWW\iogame\application" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpStudy\WWW\iogame\root" />
     </key>
   </component>
   <component name="RunManager">
@@ -482,55 +511,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18265086" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15840517" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18534483" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20905173" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17510776" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -545,80 +551,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/basic_module/flut_button_up_gridding.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/basic_module/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Base_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <marker date="1487316534485" expanded="true" signature="409:502" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="409:542" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="409:553" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="752:828" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1034:1170" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1034:1172" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1034:1173" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1034:1179" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1034:1180" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1034:1181" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1034:1222" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1386:1456" placeholder="SELECT user_..." />
-            <marker date="1487316534485" expanded="true" signature="1386:1512" placeholder="SELECT user_..users..." />
-            <marker date="1487316534485" expanded="true" signature="1697:2061" placeholder="SELECT games..WHERE..." />
-            <marker date="1487316534485" expanded="true" signature="1780:2060" placeholder="SELECT game_..games_collect..." />
-            <marker date="1487316534485" expanded="true" signature="1899:2047" placeholder="SELECT user_..users..." />
-            <marker date="1487316534485" expanded="true" signature="1899:2059" placeholder="SELECT user_..users..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/basic_module/flut_button_up_gridding.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/basic_module/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/errors/cli/error_general.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -704,9 +641,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.40135136">
@@ -714,6 +648,9 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -745,20 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/basic_module/flut_button_up_gridding.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31193838">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/basic_module/flut_button_up_home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5198973">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/basic_module/canvas_nest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31193838">
@@ -773,207 +696,330 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/welcome.php">
+    <entry file="file://$PROJECT_DIR$/application/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5840822">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/basic_module/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10397946">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72272146">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3465982">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31193838">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Gridding.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4826701">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.20795892">
-          <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/470ec738-e0e3-4d93-a821-10fef8f968f0/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5950841">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/no_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3465982">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/no_game.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31193838">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="6" />
-          <folding />
+        <state vertical-scroll-proportion="0.3465982">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index.html">
+    <entry file="file://$PROJECT_DIR$/application/views/no_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.381258">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/GamePage.php">
+    <entry file="file://$PROJECT_DIR$/application/views/basic_module/flut_button_up_home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45186135">
-          <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
-          <folding />
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/basic_module/flut_button_up_gridding.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="21" column="130" selection-start-line="21" selection-start-column="130" selection-end-line="21" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34571064">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/basic_module/popup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41485274">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7355584">
-          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
-          <folding />
+        <state vertical-scroll-proportion="0.65428936">
+          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/basic_module/popup-back.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.25">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23275863">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/basic_module/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48399487">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/470ec738-e0e3-4d93-a821-10fef8f968f0/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8033636">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/gridding.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79204106">
-          <caret line="46" column="20" selection-start-line="18" selection-start-column="3" selection-end-line="46" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.27727857">
+          <caret line="14" column="10" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Gridding.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.75">
+          <caret line="29" column="9" selection-start-line="24" selection-start-column="7" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/user_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9768934">
+          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5494223">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.618742">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45057768">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iogame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43067485">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.038904898">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iogame.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9942363">
+          <caret line="96" column="21" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/game_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48523748">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="10" />
+        <state vertical-scroll-proportion="-36.75">
+          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1487415921976" expanded="true" signature="1486:1727" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Base_model.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/GamePage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-37.5">
-          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding>
-            <marker date="1487316534485" expanded="true" signature="409:502" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="409:542" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="409:553" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="752:828" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1034:1170" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1034:1172" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1034:1173" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1034:1179" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1034:1180" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1034:1181" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1034:1222" placeholder="SELECT game_..games_item..." />
-            <marker date="1487316534485" expanded="true" signature="1386:1456" placeholder="SELECT user_..." />
-            <marker date="1487316534485" expanded="true" signature="1386:1512" placeholder="SELECT user_..users..." />
-            <marker date="1487316534485" expanded="true" signature="1697:2061" placeholder="SELECT games..WHERE..." />
-            <marker date="1487316534485" expanded="true" signature="1780:2060" placeholder="SELECT game_..games_collect..." />
-            <marker date="1487316534485" expanded="true" signature="1899:2047" placeholder="SELECT user_..users..." />
-            <marker date="1487316534485" expanded="true" signature="1899:2059" placeholder="SELECT user_..users..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iogame.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.638889">
-          <caret line="175" column="12" selection-start-line="175" selection-start-column="12" selection-end-line="175" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/UserPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.88889">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#183#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#181#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/user_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.13889">
-          <caret line="94" column="6" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
-          <folding>
-            <element signature="e#6#180#0#PHP" expanded="true" />
-            <marker date="1487319219655" expanded="true" signature="573:1255" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.388889">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.58921695">
+          <caret line="29" column="0" selection-start-line="27" selection-start-column="7" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24261874">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.6931964">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0397946">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="37" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/UserPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7768595">
+          <caret line="73" column="41" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Base_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2479339">
+          <caret line="93" column="24" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="24" />
+          <folding>
+            <marker date="1487518421985" expanded="true" signature="409:502" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="409:542" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="409:553" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="752:828" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="1034:1170" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="1034:1172" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="1034:1173" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="1034:1179" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="1034:1180" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="1034:1181" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="1034:1222" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="1386:1456" placeholder="SELECT user_..." />
+            <marker date="1487518421985" expanded="true" signature="1386:1512" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="1697:2061" placeholder="SELECT games..WHERE..." />
+            <marker date="1487518421985" expanded="true" signature="1780:2060" placeholder="SELECT game_..games_collect..." />
+            <marker date="1487518421985" expanded="true" signature="1899:2047" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="1899:2059" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="2329:2394" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="2329:2395" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="2329:2408" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="2329:2418" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="2599:2730" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="3090:3179" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="3385:3525" placeholder="INSERT INTO users..." />
+            <marker date="1487518421985" expanded="true" signature="3680:3710" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="3852:3907" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="4001:4046" placeholder="INSERT INTO games_collect..." />
+            <marker date="1487518421985" expanded="true" signature="4343:4408" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="4343:4433" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="4762:4836" placeholder="UPDATE users..." />
+            <marker date="1487518421985" expanded="true" signature="4762:4859" placeholder="UPDATE users..." />
+            <marker date="1487518421985" expanded="true" signature="4762:4870" placeholder="UPDATE users..." />
+            <marker date="1487518421985" expanded="true" signature="4762:4882" placeholder="UPDATE users..." />
+            <marker date="1487518421985" expanded="true" signature="5261:5393" placeholder="INSERT INTO comment..." />
+            <marker date="1487518421985" expanded="true" signature="5261:5533" placeholder="INSERT INTO comment..." />
+            <marker date="1487518421985" expanded="true" signature="5808:5899" placeholder="SELECT user_..." />
+            <marker date="1487518421985" expanded="true" signature="5808:6056" placeholder="SELECT users..comment..." />
+            <marker date="1487518421985" expanded="true" signature="5808:6253" placeholder="SELECT users..comment..." />
+            <marker date="1487518421985" expanded="true" signature="5808:6270" placeholder="SELECT users..comment..." />
+            <marker date="1487518421985" expanded="true" signature="6058:6119" placeholder="SELECT ${$ga..." />
+            <marker date="1487518421985" expanded="true" signature="6058:6203" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="6552:6588" placeholder="SELECT game_..game..." />
+            <marker date="1487518421985" expanded="true" signature="6552:6623" placeholder="SELECT game_..games_collect..." />
+            <marker date="1487518421985" expanded="true" signature="6552:6697" placeholder="SELECT game_..games_collect..." />
+            <marker date="1487518421985" expanded="true" signature="6552:6714" placeholder="SELECT game_..games_collect..." />
+            <marker date="1487518421985" expanded="true" signature="6552:6787" placeholder="SELECT game_..games_collect..." />
+            <marker date="1487518421985" expanded="true" signature="6635:6677" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="6635:6696" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="6730:6786" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="6957:7146" placeholder="INSERT INTO games_collect..." />
+            <marker date="1487518421985" expanded="true" signature="7207:7329" placeholder="UPDATE games..." />
+            <marker date="1487518421985" expanded="true" signature="7558:7790" placeholder="SELECT game_..games_like..." />
+            <marker date="1487518421985" expanded="true" signature="7638:7699" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="7733:7789" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="7960:8146" placeholder="INSERT INTO games_like..." />
+            <marker date="1487518421985" expanded="true" signature="8207:8321" placeholder="UPDATE games..." />
+            <marker date="1487518421985" expanded="true" signature="8567:8802" placeholder="SELECT game_..games_collect..." />
+            <marker date="1487518421985" expanded="true" signature="8650:8711" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="8745:8801" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="9142:9374" placeholder="SELECT game_..games_like..." />
+            <marker date="1487518421985" expanded="true" signature="9222:9283" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="9317:9373" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="9652:9706" placeholder="SELECT game_..." />
+            <marker date="1487518421985" expanded="true" signature="9652:9763" placeholder="SELECT TOP g..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="9652:9803" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="9652:9804" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="9983:10131" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="10419:10630" placeholder="DELETE FROM ..." />
+            <marker date="1487518421985" expanded="true" signature="10431:10630" placeholder="SELECT game_..games_like..." />
+            <marker date="1487518421985" expanded="true" signature="10478:10539" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="10573:10629" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="10992:11200" placeholder="DELETE FROM ..." />
+            <marker date="1487518421985" expanded="true" signature="11048:11109" placeholder="SELECT game_..games_item..." />
+            <marker date="1487518421985" expanded="true" signature="11143:11199" placeholder="SELECT user_..users..." />
+            <marker date="1487518421985" expanded="true" signature="11481:11542" placeholder="SELECT game_..games_collect..." />
+            <marker date="1487518421985" expanded="true" signature="11481:11568" placeholder="SELECT game_..games_collect..." />
+            <marker date="1487518421985" expanded="true" signature="11481:11591" placeholder="SELECT game_..games_collect..." />
+            <marker date="1487518421985" expanded="true" signature="11481:11592" placeholder="SELECT game_..games_collect..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/sign_in.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.5">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/log_in.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.888889">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/basic_module/navigation_bar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4454429">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.826447">
+          <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+          <folding>
+            <marker date="1487518767759" expanded="true" signature="1692:1733" placeholder="..." />
+            <marker date="1487518767759" expanded="true" signature="1930:2168" placeholder="..." />
+            <marker date="1487518767759" expanded="true" signature="2004:2163" placeholder="..." />
+            <marker date="1487518767759" expanded="true" signature="2101:2131" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4710743">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72272146">
+          <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+          <folding>
+            <element signature="e#6#181#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
