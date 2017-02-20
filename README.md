@@ -11,6 +11,7 @@ a site collecting Io games （using PHP to refactor it）
 * Bootstrap  
 * CodeIginter  
 * Jquery.js  
+* AJAX
 * canvas-nest.js  
 
 
