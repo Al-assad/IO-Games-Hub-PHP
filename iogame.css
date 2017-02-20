@@ -1,0 +1,361 @@
+
+.icon:hover{
+    opacity:1;
+    filter(alpha=100)
+}
+.icon{
+    opacity:0.4;
+    filter(alpha=80)
+}
+.bar-a{
+    color: #535453;
+}
+
+.center{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:8%;
+    margin-bottom:2%;
+
+}
+
+
+
+/*gridding视图的网格单元*/
+.img-title{
+    color: #e5e5e5;
+    font-size:1.5em;
+    font-family:Agency FB,Consolas,Century Gothic,Microsoft YaHei UI,Monospace;
+    font-weight:bold;
+    text-align: center;
+}
+.thumbnail-gridding{
+    background-color: #292929;
+}
+.thumbnail-gridding:hover{
+    transition:transform 0.5s;
+    transform:scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);	/* IE 9 */
+    -webkit-transform: scale(1.1,1.1);	/* Safari 和 Chrome */
+    -o-transform: scale(1.1,1.1);	/* Opera */
+    -moz-transform: scale(1.1,1.1);	/* Firefox */
+}
+
+/*浮动按钮*/
+.flut{
+    z-index:2;
+    position:fixed;
+    right:4%;
+    bottom:25%;
+}
+
+/*welcome页面*/
+.center-welcome{
+    width:70%;
+    margin-top:12%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.welcome-title{
+    color: #231f24;
+    font-size:6.5em;
+    font-family:Agency FB,Consolas,Century Gothic,Microsoft YaHei UI,Monospace;
+    font-weight:bold;
+    text-align: center;
+    opacity:0.9;
+}
+.welcome-inner{
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+}
+.welcome-btn{
+    width:200px;
+    opacity: 0.7;
+    margin:0 20px 0 20px;
+    font-size:1.3em;
+    font-family:Agency FB,Century Gothic,Microsoft YaHei UI,Monospace;
+}
+.welcome-bottom{
+    position:absolute;
+    right:6%;
+    bottom:6%;
+    font-family:Century Gothic,Microsoft YaHei UI,Monospace;
+}
+/*home 页面*/
+.home-title{
+    font-family:Agency FB,Century Gothic,Microsoft YaHei UI,Monospace;
+    font-size:3em;
+    margin-bottom:50px;
+
+}
+.center-carousel{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.carousel-img{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.home-top{
+    margin-top:-20px;
+    padding:20px 0 30px 0;
+    margin-bottom:10px;
+    background-color: #0e0f0e;
+    opacity:0.88;
+    filter(alpha=88);
+}
+.home-main{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.home-center{
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:8%;
+}
+.home-right-gavs{
+    width:95%;
+    margin:80px 0 40px 0;
+}
+.home-right-items{
+    vertical-align:middle ;
+    text-align:center;
+    opacity:0.85;
+    filter(alpha=85);
+}
+.home-right-items a{
+    color:#0f0f0f;
+}
+.home-right-title{
+    background-color: rgba(14, 15, 14, 0.89);
+    color: #d2d7d1;
+    font-family:Agency FB,Century Gothic,Microsoft YaHei UI,Monospace ;
+    font-weight:bold;
+    font-size:1.5em;
+}
+.home-right-title:hover{
+    background-color: rgba(14, 15, 14, 0.81);
+    color: #d2d7d1;
+}
+
+.gavs-title{
+    text-align:center;
+    font-family:Century Gothic,Microsoft YaHei UI,Monospace;
+
+}
+.gavs-value{
+    float:right;
+}
+
+.top-img{
+    float:left;
+    width:90px;
+    border-radius:10px 10px 10px 10px;
+    border-style:solid;
+    border-width:1px;
+    border-color: rgba(35, 31, 36, 0.53);
+}
+
+
+
+
+.home-btn{
+    width:100px;
+    text-align: center;
+    opacity: 0.8;
+    filter(alpha=80);
+}
+
+
+.bar-bottom{
+    width:300px;
+    margin:80px auto 30px auto;
+}
+
+.home-bottom{
+    margin:0 5% 5% 0;
+    text-align:right;
+    font-family:Century Gothic,Microsoft YaHei UI,Monospace;
+}
+
+.home-label{
+    font-size:1.05em;
+    margin-right:10px;
+    padding:3px 5px 3px 5px;
+    border-style:solid;
+    border-width:1px;
+
+    border-radius:15px 15px 15px 15px;
+    font-family:Century Gothic,Microsoft YaHei UI,Monospace;
+    opacity:0.85;
+    filter(alpha=85);
+}
+.home-labels{
+    margin-right:30px;
+}
+/*game page 页面*/
+.gamePage-center{
+    width:80%;
+    margin:50px auto 50px auto;
+
+}
+
+.home-p{
+    padding:15px 20px 30px 10px;
+}
+.game-value{
+    position:absolute;
+    right:20px;
+
+}
+
+.gamePage-thumbnail{
+    background-color:#292929;
+    width:350px;
+}
+
+.gamePage-btn{
+    text-align: center;
+    opacity: 0.86;
+    filter(alpha=85)
+}
+
+.comment-unit{
+    width:80%;
+    margin:0 auto 20px auto;
+}
+.comment-unit-left{
+    float:left;
+    margin:0 30px 0 0;
+}
+.comment-unit-right{
+    float:left;
+}
+.comment-unit-right small{
+    margin:60px;
+
+}
+
+.comment-img{
+    width:100px;
+    border-style:solid;
+    border-width:5px;
+    border-radius:50px 50px 50px 50px;
+}
+.comment-input{
+    width:60%;
+    margin:50px auto 70px auto;
+}
+.comment-input textarea{
+    opacity:0.85;
+    filter(alpha=85);
+}
+.comment-btn{
+    float:right;
+    margin-top:20px;
+    width:100px;
+
+}
+
+/*user page*/
+.user-center{
+    width:70%;
+    margin:50px auto 50px auto;
+}
+.user-icon{
+    float:left;
+}
+.user-message{
+    float:left;
+    width:50%;
+    height:200px;
+    margin-left:50px;
+    font-family:Century Gothic,Microsoft YaHei UI,Monospace;
+}
+
+/*sign in*/
+
+.sign-in-center{
+    width:50%;
+    margin:10% auto 50px auto;
+}
+
+.sign-in-title{
+    font-family:Microsoft YaHei UI,Monospace;
+    width:200px;
+    margin:0 auto 0 auto;
+}
+.sign-in-content{
+    width:400px;
+    margin:40px auto 0 auto;
+}
+.sign-in-btns{
+    width:250px;
+    margin:60px auto 0 auto;
+}
+.sign-in-btns input{
+    width:100px;
+    margin:0 10px 0 10px;
+}
+
+/*通用*/
+.sign-tab{
+    width:80%;
+    margin:50px auto 40px auto;
+}
+.sign-btns{
+    width:250px;
+    margin:20px auto 0 auto;
+}
+.sign-btns input{
+    width:100px;
+    margin:0 10px 0 10px;
+}
+.email-textarea{
+    width:95%;
+    margin:20px auto 20px auto;
+}
+.email-btn{
+    width:200px;
+    margin:20px auto 20px auto;
+}
+.email-btn input{
+    width:200px;
+
+}
+
+
+
+/*search 页面*/
+.search-center {
+    width:60%;
+    margin:60px auto 50px auto;
+}
+.search-title{
+    text-align:center;
+}
+.search-input{
+    width:70%;
+    margin:0 auto 20px auto;
+}
+.search-img{
+    width:90%;
+    border-radius:25px 25px 25px 25px;
+    border-style:solid;
+    border-width:1px;
+    border-color: #949494;
+}
+.search-message{
+    text-align:center;
+    margin-bottom:30px;
+    font-family:Agency FB,Century Gothic,Microsoft YaHei UI,Monospace;
+    font-size:1.4em;
+}
