@@ -111,10 +111,10 @@
 
                          <span class="home-labels">
                              <span class="home-label"><span class="glyphicon glyphicon-star" aria-hidden="true"></span> Collected
-                                 <span class="badge"><?php echo $items_list[$i]['collected_count']; ?></span></span>
+                                 <span class="badge"><?php echo $items_list[$i+1]['collected_count']; ?></span></span>
 
                             <span class="home-label"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Liked
-                                <span class="badge"><?php echo $items_list[$i]['liked_count']; ?></span></span>
+                                <span class="badge"><?php echo $items_list[$i+1]['liked_count']; ?></span></span>
 
                         </span>
 

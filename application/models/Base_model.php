@@ -311,9 +311,14 @@ class Base_model extends CI_Model{
         $sql = "DELETE FROM games_collect
                 WHERE game_id = (SELECT game_id FROM games_item WHERE game_name = '$game_name')
                 AND  user_id = (SELECT user_id FROM users WHERE user_name = '$user_name')";
+
         $query = $this->db->query($sql);
         $result = $this->db->affected_rows();
         if(count($result) >0 ){
+            $sql2 = "UPDATE games_item
+                SET collected_count = collected_count - 1
+                WHERE game_name = '$game_name'";
+            $query = $this->db->query($sql2);
             return TRUE;
         }else{
             return FALSE;
@@ -329,6 +334,10 @@ class Base_model extends CI_Model{
         $query = $this->db->query($sql);
         $result = $this->db->affected_rows();
         if(count($result) >0 ){
+            $sql2 = "UPDATE games_item
+                SET liked_count = liked_count - 1
+                WHERE game_name = '$game_name'";
+            $query = $this->db->query($sql2);
             return TRUE;
         }else{
             return FALSE;
