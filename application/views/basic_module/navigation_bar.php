@@ -9,7 +9,7 @@
 $this->load->helper('form');
 ?>
 
-<div class="navbar navbar-inverse ">
+<div class="navbar navbar-inverse " >
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-globe"></span>  IO Games Hub</a>
         <ul class="nav navbar-nav navbar-left">

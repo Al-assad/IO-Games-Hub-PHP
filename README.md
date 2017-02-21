@@ -1,22 +1,23 @@
-# IO-Games-Hub-PHP
-a site collecting Io games （using PHP to refactor it）  
+移植网站注意事项：
 
-站点地址：<a href="http://iogame.assad.site">http://iogame.assad.site</a>  
-<br/>
-##重构说明
-对原<a href="https://github.com/Al-assad/IO-Games-Hub-HTML">IO-Game-Hub-HTML</a>仓库静态站点使用php进行重构，添加动态交互模块;  
-<br/>
-##所使用的技术##
-* Apache  
-* MySQL  
-* PHP-5.5
-* AJAX
-* Bootstrap-3.3  
-* CodeIginter-3.1
-* Jquery.js  
-* canvas-nest.js  
 
+
+* 移植时iogame/root/index.php 更改 $system_path,$application_path 变量
+
+* 更改数据库连接的配置文件
+
+* 禁用PHP错误报告,iogame/root/index.php 设置 ENVIRONMENT参量为 'production'
+
+* 修改 config.php 中 $config['sess_save_path'] =  sys_get_temp_dir();;
+
+   
+移动application,system,SQL console 文件夹到站点根目录之外，（或者屏蔽这两个文件夹，同时nginx引入.htaccsess文件）
+
+* iogame目录到时候为站点的根目录 iogames_assad_site；  
+
+* iogame/root 目录到时候为站点 iogames_assad_site\Public_HTML 公开根目录下；
 
 
   
+
 

@@ -19,7 +19,7 @@
     <?php for($i=0;$i<count($items_list)-count($items_list)%4;$i+=4): ?>
     <div class="row">
         <?php for($k=$i;$k<$i+4;$k++):?>
-        <div class="col-sm-4 col-md-3" >
+        <div class="col-md-3 col-sm-3  col-xs-6" >
             <div class="thumbnail thumbnail-gridding">
 
                 <?php if(!isset($_SESSION['username'])){?>
@@ -40,7 +40,7 @@
 
     <div class="row">
     <?php for($k=count($items_list)-count($items_list)%4;$k<count($items_list);$k++):?>
-        <div class="col-sm-4 col-md-3" >
+        <div class="col-md-3 col-sm-3 col-xs-6" >
             <div class="thumbnail thumbnail-gridding">
                 <?php if(!isset($_SESSION['username'])){?>
                 <a href="<?php echo $base_url.'index.php/gamePage/index/'. $items_list[$k]['game_name'];?> " target="_blank"><img src="<?php echo $base_url.'assets/game-img/'.str_replace('.','-',$items_list[$k]['game_name']).'.png'; ?>"

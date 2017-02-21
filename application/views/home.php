@@ -72,12 +72,12 @@
 
     <?php for($i=0; $i<count($items_list)-1;$i+=2): ?>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4 col-xs-4">
                 <div class="thumbnail">
                     <img src="<?php echo $base_url.'assets/game-img/'.str_replace('.','-',$items_list[$i]['game_name']).'.png'; ?>" alt="<?php echo $items_list[$i]['game_name']; ?>" />
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8 col-xs-8">
                     <h2><?php echo ucfirst($items_list[$i]['game_name']);?>
                     </h2><!--     插入游戏数值按钮 -->
                     <p class="home-p"><?php echo $items_list[$i]['game_description']; ?></p>
@@ -95,7 +95,7 @@
                     <a href="<?php echo $base_url.'index.php/gamePage/index/'. $items_list[$i]['game_name'];?>" target="_blank">
                         <button type="button" class="btn btn-default home-btn"><span class="glyphicon glyphicon-king"></span> Play</button></a>
                     <?php }else{ ?>
-                        <a href="<?php echo $base_url.'index.php/gamePage/index/'. $items_list[$i]['game_name'].'?username='.$_SESSION['username'].'&usericon='.$_SESSION['user-icon'];?>" target="_blank">
+                        <a  href="<?php echo $base_url.'index.php/gamePage/index/'. $items_list[$i]['game_name'].'?username='.$_SESSION['username'].'&usericon='.$_SESSION['user-icon'];?>" target="_blank">
                             <button type="button" class="btn btn-default home-btn"><span class="glyphicon glyphicon-king"></span> Play</button></a>
                     <?php } ?>
                 <br/><hr/>
@@ -103,7 +103,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8 col-xs-8">
 
                     <h2><?php echo ucfirst($items_list[$i+1]['game_name']);?>
                     </h2><!--  插入游戏数值按钮 -->
@@ -129,7 +129,7 @@
                 <br/><hr/>
 
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4 col-xs-4">
                 <div class="thumbnail">
                     <img src="<?php echo $base_url.'assets/game-img/'.str_replace('.','-',$items_list[$i+1]['game_name']).'.png'; ?>" alt="<?php echo $items_list[$i+1]['game_name']; ?>">
                 </div>
@@ -143,12 +143,12 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-4 col-xs-4">
             <div class="thumbnail">
                 <img src="<?php echo $base_url;?>assets/game-img/all.png" alt="all">
             </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 col-sm-8 col-xs-8">
             <div class="page-header">
                 <h2>Play more</h2>
                 <p>

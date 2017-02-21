@@ -14,7 +14,7 @@ $this->load->helper('form');?>
             <br/><small>just enjoy io games</small>
         </h1>
     </div>
-    <div class="welcome-inner">
+    <div class="welcome-inner ">
         <a data-toggle="modal" data-target="#signIn" >
             <button class="btn btn-default welcome-btn" type="button"><span class="glyphicon glyphicon-ok-sign"></span> Log in</button></a>
         <a href="<?php echo $base_url.'index.php/home';?>">
