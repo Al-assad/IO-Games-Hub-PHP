@@ -2,6 +2,24 @@ body{
     min-width:730px;
 
 }
+/*内置字体*/
+@font-face{
+    font-family: my_AgencyFB;
+    src: url("font/AgencyFB.ttf");
+}
+@font-face{
+    font-family: my_AgencyFB;
+    src: url("font/AgencyFB.eot");
+}
+@font-face{
+    font-family: my_Century_Gothic;
+    src: url("font/Century_Gothic.ttf");
+}
+@font-face{
+    font-family: my_Century_Gothic;
+    src: url("font/Century_Gothic.eot");
+}
+
 
 .icon:hover{
     opacity:1;
@@ -30,7 +48,7 @@ body{
 .img-title{
     color: #e5e5e5;
     font-size:1.5em;
-    font-family:Agency FB,Consolas,Century Gothic,Microsoft YaHei UI,Monospace;
+    font-family:my_AgencyFB;
     font-weight:bold;
     text-align: center;
 }
@@ -66,7 +84,7 @@ body{
 .welcome-title{
     color: #231f24;
     font-size:6.5em;
-    font-family:Agency FB,Consolas,Century Gothic,Microsoft YaHei UI,Monospace;
+    font-family:my_AgencyFB;
     font-weight:bold;
     text-align: center;
     opacity:0.9;
@@ -83,17 +101,17 @@ body{
     opacity: 0.7;
     margin:0 20px 0 20px;
     font-size:1.3em;
-    font-family:Agency FB,Century Gothic,Microsoft YaHei UI,Monospace;
+    font-family:my_AgencyFB;
 }
 .welcome-bottom{
     position:absolute;
     right:6%;
     bottom:6%;
-    font-family:Century Gothic,Microsoft YaHei UI,Monospace;
+    font-family:my_Century_Gothic;
 }
 /*home 页面*/
 .home-title{
-    font-family:Agency FB,Century Gothic,Microsoft YaHei UI,Monospace;
+    font-family:my_AgencyFB;
     font-size:3em;
     margin-bottom:50px;
 
@@ -143,7 +161,7 @@ body{
 .home-right-title{
     background-color: rgba(14, 15, 14, 0.89);
     color: #d2d7d1;
-    font-family:Agency FB,Century Gothic,Microsoft YaHei UI,Monospace ;
+    font-family:my_AgencyFB ;
     font-weight:bold;
     font-size:1.5em;
 }
@@ -154,7 +172,7 @@ body{
 
 .gavs-title{
     text-align:center;
-    font-family:Century Gothic,Microsoft YaHei UI,Monospace;
+    font-family:my_Century_Gothic;
 
 }
 .gavs-value{
@@ -189,7 +207,7 @@ body{
 .home-bottom{
     margin:0 5% 5% 0;
     text-align:right;
-    font-family:Century Gothic,Microsoft YaHei UI,Monospace;
+    font-family:my_Century_Gothic;
 }
 
 .home-label{
@@ -200,7 +218,7 @@ body{
     border-width:1px;
 
     border-radius:15px 15px 15px 15px;
-    font-family:Century Gothic,Microsoft YaHei UI,Monospace;
+    font-family:my_Century_Gothic;
     opacity:0.85;
     filter(alpha=85);
 }
@@ -285,7 +303,7 @@ body{
     width:50%;
     height:200px;
     margin-left:50px;
-    font-family:Century Gothic,Microsoft YaHei UI,Monospace;
+    font-family:my_Century_Gothic;
 }
 
 /*sign in*/
@@ -296,7 +314,7 @@ body{
 }
 
 .sign-in-title{
-    font-family:Microsoft YaHei UI,Monospace;
+    font-family:my_Century_Gothic;
     width:200px;
     margin:0 auto 0 auto;
 }
@@ -364,6 +382,6 @@ body{
 .search-message{
     text-align:center;
     margin-bottom:30px;
-    font-family:Agency FB,Century Gothic,Microsoft YaHei UI,Monospace;
+    font-family:my_AgencyFB;
     font-size:1.4em;
 }
