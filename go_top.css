@@ -1,0 +1,49 @@
+
+.controller{
+    display:none;
+}
+/*整个按钮组块*/
+.go_top{
+    z-index:999;
+    /*调整按钮组的位置*/
+    position:fixed;
+    right:3%;
+    bottom:30%;
+    opacity:0.95;
+    filter(alpha=95)
+
+
+}
+.go_top-item{
+    margin-bottom:10px;
+    text-align:right;
+    /*调整字体*/
+    font-size:1.3em;
+    font-family:helvetica,arial,sans-serif
+}
+.go_top-item-icon{   /*调整按钮大小，颜色，形状，阴影*/
+
+    transition:color 0.8s, background-color 0.8s;
+    -moz-transition:color 0.8s, background-color 0.8s;
+    -webkit-transition:color 0.8s, background-color 0.8s;
+    -o-transition:color 0.8s, background-color 0.8s;
+
+    padding:12px;
+    color: #5c5c5c;
+    background-color: #ececec;
+    border-radius:30px;
+    box-shadow:1px 1px 5px #999999;
+}
+.go_top-item-text{
+    display:none;
+    font-family:my_Century_Gothic;
+}
+.go_top-item:hover .go_top-item-icon{  /*调整按钮hover颜色，形状*/
+    color: #d7d7d7;
+    background-color: #595959;
+}
+.go_top-item:hover .go_top-item-icon .go_top-item-text{
+    display:inline;
+}
+
+

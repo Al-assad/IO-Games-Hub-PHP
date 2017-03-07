@@ -24,7 +24,9 @@
     <link href="<?php echo $base_url; ?>libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <script src="<?php echo $base_url;?>iogame.js"></script>
+    <link href="<?php echo $base_url; ?>go_top.css" rel="stylesheet">
     <link href="<?php echo $base_url; ?>iogame.css" rel="stylesheet">
+    <link href="<?php echo $base_url; ?>csshake.css" rel="stylesheet">
 </head>
 <body>
 

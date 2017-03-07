@@ -34,7 +34,7 @@ $this->load->helper('form');
                     }else{
                     echo  $base_url.'index.php/comment/fail';
                     }?>">
-                    <button class="btn btn-default gamePage-btn collected-btn" type="button"><span class="<?php if($collect == TRUE){
+                    <button class="btn btn-default gamePage-btn " type="button"><span class="<?php if($collect == TRUE){
                             echo 'glyphicon glyphicon-star'; }else{ echo 'glyphicon glyphicon-star-empty';
                     }?>" aria-hidden="true"></span> Collected
                             <span class="badge"><?php echo $game_item['collected_count']; ?></span></button></a>
@@ -44,7 +44,7 @@ $this->load->helper('form');
                     }else{
                     echo  $base_url.'index.php/comment/fail';
                     }?>">
-                    <button class="btn btn-default gamePage-btn liked-btn" type="button"><span class="<?php if($like == TRUE){
+                    <button class="btn btn-default gamePage-btn " type="button"><span class="<?php if($like == TRUE){
                         echo 'glyphicon glyphicon-heart'; }else{ echo 'glyphicon glyphicon-heart-empty';
                     }?>" aria-hidden="true"></span> Liked
                             <span class="badge"><?php echo $game_item['liked_count']; ?></span></button></a>

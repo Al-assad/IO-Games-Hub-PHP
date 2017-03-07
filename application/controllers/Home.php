@@ -48,7 +48,7 @@ class Home extends CI_Controller{
         $this->load->view('basic_module/header',$data);
         $this->load->view('basic_module/canvas_nest',$data);
         $this->load->view('basic_module/navigation_bar');
-        $this->load->view('basic_module/flut_button_up_gridding');
+        $this->load->view('basic_module/flut_button_up_gridding',$data);
         $this->load->view('home',$data);
         $this->load->view('basic_module/footer',$data);
 

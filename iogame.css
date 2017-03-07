@@ -1,5 +1,6 @@
 body{
     min-width:730px;
+    background-color: #fdfdfd;
 
 }
 /*内置字体*/
@@ -55,14 +56,16 @@ body{
 .thumbnail-gridding{
     background-color: #292929;
 }
+/*
 .thumbnail-gridding:hover{
     transition:transform 0.5s;
     transform:scale(1.1,1.1);
-    -ms-transform: scale(1.1,1.1);	/* IE 9 */
-    -webkit-transform: scale(1.1,1.1);	/* Safari 和 Chrome */
-    -o-transform: scale(1.1,1.1);	/* Opera */
-    -moz-transform: scale(1.1,1.1);	/* Firefox */
+    -ms-transform: scale(1.1,1.1);	!* IE 9 *!
+    -webkit-transform: scale(1.1,1.1);	!* Safari 和 Chrome *!
+    -o-transform: scale(1.1,1.1);	!* Opera *!
+    -moz-transform: scale(1.1,1.1);	!* Firefox *!
 }
+*/
 
 /*浮动按钮*/
 .flut{
@@ -148,6 +151,7 @@ body{
 .home-right-gavs{
     width:95%;
     margin:80px 0 40px 0;
+    box-shadow:0 0 10px #b0b0b0;
 }
 .home-right-items{
     vertical-align:middle ;
@@ -196,13 +200,25 @@ body{
     text-align: center;
     opacity: 0.8;
     filter(alpha=80);
+    transition:width 1s,background-color 1s;
+    -webkit-transition:width 1s,background-color 1s;
+    -o-transition:width 1s,background-color 1s;
+    -moz-transition:width 1s,background-color 1s;
 }
 
+.home-btn:hover{
+    width:200px;
+    color: #d0d0d0;
+    background-color: #3d3a3d;
+    font-weight:bold;
+}
 
 .bar-bottom{
     width:300px;
     margin:80px auto 30px auto;
+
 }
+
 
 .home-bottom{
     margin:0 5% 5% 0;
@@ -247,11 +263,7 @@ body{
     width:350px;
 }
 
-.gamePage-btn{
-    text-align: center;
-    opacity: 0.86;
-    filter(alpha=85)
-}
+
 
 .comment-unit{
     width:80%;
@@ -287,7 +299,17 @@ body{
     float:right;
     margin-top:20px;
     width:100px;
+    transition:width 1s,color 1s;
+    -webkit-transition:width 1s,color 1s;
+    -o-transition:width 1s,color 1s;
+    -moz-transition:width 1s,color 1s;
 
+}
+.comment-btn:hover{
+    width:200px;
+    color: #d0d0d0;
+    background-color: #3d3a3d;
+    font-weight:bold;
 }
 
 /*user page*/
@@ -384,4 +406,78 @@ body{
     margin-bottom:30px;
     font-family:my_AgencyFB;
     font-size:1.4em;
+    margin-top:30px;
+
+}
+
+
+.description-item{
+    transition: box-shadow 1s ,border-radius 0.5s;
+    -moz-transition: box-shadow 1s ,border-radius 0.5s;
+    -webkit-transition: box-shadow 1s ,border-radius 0.5s;
+    -o-transition: box-shadow 1s ,border-radius 0.5s;
+}
+.description-item:hover{
+    box-shadow:0 0 10px #a5a5a5;
+    border-radius:20px;
+}
+
+.description-item:hover .col-md-4 .description-item-img{
+    transform:translate(0,25px);
+    -moz-transform:translate(0,25px);
+    -webkit-transform:translate(0,25px);
+    -o-transform:translate(0,25px);
+}
+
+.game-diamond{
+    transition: transform 5s;
+    -webkit-transition: transform 5s;
+    -moz-transition: transform 5s;
+    -o-transition: transform 5s;
+}
+
+
+.description-item-img{
+    transition:transform 1s;
+    -webkit-transition:transform 1s;
+    -moz-transition:transform 1s;
+    -o-transition:transform 1s;
+    box-shadow:0 0 10px #a1a1a1;
+}
+
+.description-item-img:hover{
+    transform:translate(0,25px);
+    -webkit-transform:translate(0,25px);
+    -o-transform:translate(0,25px);
+    -moz-transform:translate(0,25px);
+}
+
+.gamePage-thumbnail{
+    transition:transform 1s;
+    -moz-transition:transform 1s;
+    -o-transition:transform 1s;
+    -webkit-transition:transform 1s;
+}
+.gamePage-thumbnail:hover{
+    transform:translate(25px,0);
+    -moz-transform:translate(25px,0);
+    -o-transform:translate(25px,0);
+    -webkit-transform:translate(25px,0);
+
+}
+
+.gamePage-btn{
+    width:125px;
+    transition:width 1s;
+    -webkit-transition:width 1s;
+    -o-transition:width 1s;
+    -moz-transition:width 1s;
+
+  /*  text-align: center;
+    opacity: 0.86;
+    filter(alpha=85);*/
+
+}
+.gamePage-btn:hover{
+    width:220px;
 }

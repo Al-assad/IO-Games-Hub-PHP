@@ -71,9 +71,9 @@
     </div>
 
     <?php for($i=0; $i<count($items_list)-1;$i+=2): ?>
-        <div class="row">
+        <div class="row description-item">
             <div class="col-md-4 col-sm-4 col-xs-4">
-                <div class="thumbnail">
+                <div class="thumbnail description-item-img">
                     <img src="<?php echo $base_url.'assets/game-img/'.str_replace('.','-',$items_list[$i]['game_name']).'.png'; ?>" alt="<?php echo $items_list[$i]['game_name']; ?>" />
                 </div>
             </div>
@@ -102,7 +102,7 @@
                 </div>
         </div>
 
-        <div class="row">
+        <div class="row description-item">
             <div class="col-md-8 col-sm-8 col-xs-8">
 
                     <h2><?php echo ucfirst($items_list[$i+1]['game_name']);?>
@@ -130,7 +130,7 @@
 
             </div>
             <div class="col-md-4 col-sm-4 col-xs-4">
-                <div class="thumbnail">
+                <div class="thumbnail description-item-img">
                     <img src="<?php echo $base_url.'assets/game-img/'.str_replace('.','-',$items_list[$i+1]['game_name']).'.png'; ?>" alt="<?php echo $items_list[$i+1]['game_name']; ?>">
                 </div>
             </div>
@@ -142,9 +142,9 @@
         <h1><span class="glyphicon glyphicon-grain"></span> Play more <small>—— more interesting games </small></h1>
     </div>
 
-    <div class="row">
+    <div class="row description-item">
         <div class="col-md-4 col-sm-4 col-xs-4">
-            <div class="thumbnail">
+            <div class="thumbnai description-item-img">
                 <img src="<?php echo $base_url;?>assets/game-img/all.png" alt="all">
             </div>
         </div>
