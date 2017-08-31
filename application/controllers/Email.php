@@ -26,8 +26,8 @@ class Email extends CI_Controller{
 
         $config['protocol'] = 'smtp';
         $config['smtp_host'] = 'smtp.163.com';
-        $config['smtp_user'] = 'helloworld_assad@163.com';
-        $config['smtp_pass'] = "helloworld123";           //填写邮箱的 SMTP/POP 等的授权码
+        $config['smtp_user'] = '233333163.com';
+        $config['smtp_pass'] = "2333333";           //填写邮箱的 SMTP/POP 等的授权码
         $config['smtp_port'] = 25;
         $config['charset'] = 'utf-8';
         $config['smtp_timeout'] = 30;
