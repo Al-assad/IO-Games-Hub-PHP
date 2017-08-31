@@ -38,8 +38,8 @@ class Email extends CI_Controller{
         $config['newline'] = '\r\n';
 
         $this->email->initialize($config);
-        $this->email->from('helloworld_assad@163.com',$_POST['username']);
-        $this->email->to('yulinying_1994@foxmail.com');
+        $this->email->from('233333@163.com',$_POST['username']);
+        $this->email->to('2333333@foxmail.com');
         $this->email->subject('IO Game Hub');
         $this->email->message($_POST['content']);
 
